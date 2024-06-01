@@ -25,8 +25,8 @@ go to the "bin" folder, run:
 and type "Enter" several times following the prompt, until the terminal freezes. The frozen of the terminal is the indication that the issue is reproduced.
 
 This testing program takes two mandatory positional arguments:
-arg1: The folder and file basename for the file lock test
-args: The number of thread pairs that will compete the file lock and trigger interruption
+* arg1: The folder and file basename for the file lock test
+* arg2: The number of thread pairs that will compete the file lock and trigger interruption
 
 For example, if the volume is mounted at `/mnt`, and there is no reconfigured volume options regarding the client io threads, this command will trigger the issue:
 ```
